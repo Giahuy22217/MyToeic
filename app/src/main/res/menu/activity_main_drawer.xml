@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Practice Level">
+            <menu>
+                <item
+                    android:id="@+id/nav_Beginner"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Beginner" />
+                <item
+                    android:id="@+id/nav_Intermediate"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Intermediate" />
+                <item
+                    android:id="@+id/nav_Advanced"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Advanced" />
+                <item
+                    android:id="@+id/nav_Profession"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Profession" />
+                <item
+                    android:id="@+id/nav_Expert"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Expert" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Ngu phap">
+        <menu>
+            <item
+                android:id="@+id/nav_Grammar"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Grammar" />
+        </menu>
+        </item>
+    </group>
+
+
+</menu>

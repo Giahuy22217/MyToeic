@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Toeic</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Beginner_fragment">Đây là đề thi Toeic dành cho Beginner</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Home_fragment">My Toeic! Chào mừng bạn đến với ứng dụng luyện thi Toeic</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

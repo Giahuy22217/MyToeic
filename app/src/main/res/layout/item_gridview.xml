@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        app:srcCompat="@drawable/h1"
+        android:id="@+id/imgIcon"
+        android:layout_width="50dp"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:text="Để số 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNumExam"
+        android:textColor="#1268f2"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_weight="1"/>
+</LinearLayout>
